@@ -3,9 +3,12 @@ import './Header.css';
 
 const Header = () => {
    return (
-      <div className="header">
-         <h1>List of best-selling fiction authors</h1>
-         <h4>To keep the list manageable, only authors with estimated sales of at least 100 million are included.</h4>
+      <div className="container header-bg">
+         <div className="header_title text-center">
+            <h1>List of best-selling fiction authors</h1>
+            <p>This is a list of best-selling fiction authors to date, in any language.</p>
+            <h3>only authors with estimated sales of at least 100 million are included.</h3>
+         </div>
       </div>
    );
 };

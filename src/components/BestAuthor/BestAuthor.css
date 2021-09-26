@@ -1,0 +1,10 @@
+.btn-bg{
+   background-color: #632e9b;
+   color: white;
+   opacity: 1;
+   transition: all .3s;
+}
+.btn-bg:hover{
+   color: white;
+   opacity: 0.8;
+}
